@@ -1,0 +1,51 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 15
+ * Assignment Name: Responsive Pages with Media Queries
+ * Question: Task 3
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Text - Harsh Narayan Singh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            font-size: 1rem;
+            color: #334155;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            color: #0369a1;
+        }
+
+        @media (min-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+                color: #0c4a6e;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Typography Heading</h1>
+    <p>Body font size is set to 1rem. On mobile screens (under 600px), this h1 heading renders at 1.5rem. When screen width reaches 600px or greater, the media query smoothly enlarges the heading to 2.5rem.</p>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

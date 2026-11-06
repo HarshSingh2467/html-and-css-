@@ -1,0 +1,90 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 14
+ * Assignment Name: CSS Grid Layouts
+ * Question: Task 3
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Grid Areas - Harsh Narayan Singh</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .dashboard-layout {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            gap: 10px;
+            min-height: 380px;
+        }
+        .area-header {
+            grid-area: header;
+            background-color: #1e3a8a;
+            color: white;
+            padding: 16px;
+            border-radius: 6px;
+        }
+        .area-sidebar {
+            grid-area: sidebar;
+            background-color: #e2e8f0;
+            padding: 16px;
+            border-radius: 6px;
+        }
+        .area-main {
+            grid-area: main;
+            background-color: #f1f5f9;
+            padding: 16px;
+            border-radius: 6px;
+        }
+        .area-footer {
+            grid-area: footer;
+            background-color: #334155;
+            color: white;
+            padding: 14px;
+            border-radius: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-layout">
+        <div class="area-header">
+            <h2>Dashboard Header</h2>
+            <p>Student Analytics Management Portal</p>
+        </div>
+        <div class="area-sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+                <li>Overview</li>
+                <li>Courses</li>
+                <li>Grades</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+        <div class="area-main">
+            <h3>Main Content Area</h3>
+            <p>Welcome, Harsh Narayan Singh! Here are your active modules for HTML and CSS Introduction Lab (BCS352).</p>
+        </div>
+        <div class="area-footer">
+            <p>&copy; 2026 Invertis University Bareilly</p>
+        </div>
+    </div>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

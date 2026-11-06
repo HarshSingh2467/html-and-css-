@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    background-color: #0b0f19;
+    margin: 20px;
+    font-family: 'Consolas', 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .window {
+    width: 800px;
+    background-color: #111827;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #374151;
+    overflow: hidden;
+  }
+  .titlebar {
+    background-color: #1f2937;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+  }
+  .dots {
+    display: flex;
+    gap: 8px;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .dot-red { background: #ef4444; }
+  .dot-yellow { background: #f59e0b; }
+  .dot-green { background: #10b981; }
+  .title {
+    color: #9ca3af;
+    font-size: 13px;
+    margin-left: 20px;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .content {
+    padding: 18px 22px;
+    color: #e5e7eb;
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+  .prompt { color: #10b981; font-weight: bold; }
+  .command { color: #f9fafb; font-weight: bold; }
+  .output { color: #93c5fd; }
+  .commit { color: #fde047; }
+</style>
+</head>
+<body>
+<div class="window">
+  <div class="titlebar">
+    <div class="dots">
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
+    </div>
+    <div class="title">Assignment 2 - Task 2: Push Commits to Origin — Student: Harsh Narayan Singh (BCS2025367)</div>
+  </div>
+  <div class="content"><span class="prompt">harsh@invertis-lab:~/html-lab$</span> <span class="command">git push origin main</span>
+<span class="output">Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 612 bytes | 612.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To ../html-remote
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.</span></div>
+</div>
+</body>
+</html>

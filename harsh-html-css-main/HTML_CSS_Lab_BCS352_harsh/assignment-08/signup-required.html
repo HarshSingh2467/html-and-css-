@@ -1,0 +1,50 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 08
+ * Assignment Name: Sign-Up Forms and Choices
+ * Question: Task 3
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Required Sign-Up Form - Harsh Narayan Singh</title>
+    <script src="form-demo.js" defer></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .form-group { margin-bottom: 14px; }
+        label { display: block; margin-bottom: 4px; font-weight: bold; }
+        input { padding: 8px 12px; border: 1px solid #94a3b8; border-radius: 4px; width: 280px; }
+        input:focus { outline: 2px solid #3b82f6; }
+        button { padding: 9px 20px; background-color: #059669; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Registration Form (Required Fields)</h1>
+    <form data-demo-form>
+        <div class="form-group">
+            <label for="fullname">Full Name *</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <button type="submit">Submit</button>
+        <p data-form-status role="status" aria-live="polite" hidden></p>
+    </form>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

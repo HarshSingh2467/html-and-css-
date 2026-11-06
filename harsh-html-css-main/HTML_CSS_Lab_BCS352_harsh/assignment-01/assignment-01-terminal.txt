@@ -1,0 +1,38 @@
+﻿=== ASSIGNMENT 1: STARTING A GIT REPOSITORY ===
+Student Name: Harsh Narayan Singh | Roll: BCS2025367
+
+$ cd html-lab
+$ git init
+Initialized empty Git repository in C:/Users/DELL/.gemini/antigravity/scratch/html-css-lab-bcs352/git-tasks/assignment-01/html-lab/.git/
+$ git config --local user.name "Harsh Narayan Singh"
+$ git config --local user.email "your-email@example.com"
+$ git config user.name
+Harsh Narayan Singh
+$ git config user.email
+your-email@example.com
+
+--- TASK 2 ---
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git add index.html
+$ git commit -m "Add home page"
+[master (root-commit) 3f40066] Add home page
+ 1 file changed, 22 insertions(+)
+ create mode 100644 index.html
+
+--- TASK 3 ---
+$ git commit -am "Add next meeting heading"
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[master cc0dcc5] Add next meeting heading
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ git log --oneline
+cc0dcc5 Add next meeting heading
+3f40066 Add home page

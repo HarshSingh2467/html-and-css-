@@ -1,0 +1,71 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 13
+ * Assignment Name: Flexbox Layouts
+ * Question: Task 1
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Navigation - Harsh Narayan Singh</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        nav {
+            display: flex;
+            background-color: #0f172a;
+            padding: 16px 24px;
+            gap: 24px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main style="padding: 20px;">
+        <section id="home">
+            <h2>Horizontal Flexbox Navigation Bar</h2>
+            <p>This navigation bar uses <code>display: flex</code> with white links on a dark slate background.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This page demonstrates a simple Flexbox navigation layout.</p>
+        </section>
+        <section id="events">
+            <h2>Events</h2>
+            <p>Explore the latest student activities and lab events.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contact information is not published on this demonstration page.</p>
+        </section>
+    </main>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

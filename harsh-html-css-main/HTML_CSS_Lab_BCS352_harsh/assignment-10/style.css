@@ -1,0 +1,26 @@
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 10
+ * Assignment Name: CSS Fundamentals
+ * Question: Task 2
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+h1 {
+    color: navy;
+}
+
+.note {
+    font-style: italic;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    color: grey;
+}

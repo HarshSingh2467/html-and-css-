@@ -1,0 +1,47 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 11
+ * Assignment Name: Units and CSS Variables
+ * Question: Task 2
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variables - Harsh Narayan Singh</title>
+    <style>
+        :root {
+            --main-color: #1d3557;
+            --accent-color: #e63946;
+            --page-padding: 20px;
+        }
+
+        body {
+            color: var(--main-color);
+            padding: var(--page-padding);
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading Styled with CSS Variable --accent-color</h1>
+    <p>This paragraph text is styled with the --main-color variable, and the page body has padding supplied by --page-padding.</p>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

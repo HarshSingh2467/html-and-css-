@@ -1,0 +1,30 @@
+﻿=== ASSIGNMENT 2: PUSHING AND CLONING A REPOSITORY ===
+Student Name: Harsh Narayan Singh | Roll: BCS2025367
+
+$ git init --bare ../html-remote
+Initialized empty Git repository in C:/Users/DELL/.gemini/antigravity/scratch/html-css-lab-bcs352/git-tasks/assignment-01/html-remote/
+$ git remote add origin ../html-remote
+$ git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)
+
+--- TASK 2 ---
+$ git push origin main
+      0 [main] sh (18860) C:\Program Files\Git\usr\bin\sh.exe: *** fatal error - NtCreateDirectoryObject(\BaseNamedObjects\msys-2.0S5-1888ae32e00d56aa): 0xC0000022
+fatal: Could not read from remote repository.
+System.Management.Automation.RemoteException
+Please make sure you have the correct access rights
+and the repository exists.
+
+--- TASK 3 ---
+$ cd ..
+$ git clone html-remote html-copy
+Cloning into 'html-copy'...
+      0 [main] sh (13056) C:\Program Files\Git\usr\bin\sh.exe: *** fatal error - NtCreateDirectoryObject(\BaseNamedObjects\msys-2.0S5-1888ae32e00d56aa): 0xC0000022
+fatal: Could not read from remote repository.
+System.Management.Automation.RemoteException
+Please make sure you have the correct access rights
+and the repository exists.
+$ cd html-copy
+$ git log --oneline
+fatal: not a git repository (or any of the parent directories): .git

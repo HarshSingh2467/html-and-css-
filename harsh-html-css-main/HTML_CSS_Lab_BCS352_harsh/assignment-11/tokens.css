@@ -1,0 +1,27 @@
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 11
+ * Assignment Name: Units and CSS Variables
+ * Question: Task 3
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+:root {
+    --primary-color: #1d3557;
+    --accent-color: #e63946;
+    --heading-size: 2rem;
+    --spacing: 16px;
+}
+
+body {
+    color: var(--primary-color);
+    padding: var(--spacing);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: var(--accent-color);
+    font-size: var(--heading-size);
+}

@@ -1,0 +1,7 @@
+﻿$ git commit -am "Add next meeting heading"
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[master cc0dcc5] Add next meeting heading
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ git log --oneline
+cc0dcc5 Add next meeting heading
+3f40066 Add home page

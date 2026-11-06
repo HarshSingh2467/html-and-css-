@@ -1,0 +1,63 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 09
+ * Assignment Name: Tables with Headers and Footers
+ * Question: Task 1
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class Marks - Harsh Narayan Singh</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 350px; }
+        caption { font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; text-align: left; }
+        th, td { border: 1px solid #64748b; padding: 10px 14px; text-align: center; }
+        thead th { background-color: #1e3a8a; color: white; }
+        tbody tr:nth-child(even) { background-color: #f8fafc; }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Marks of Class A</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Maths</th>
+                <th>Science</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harsh Narayan Singh</td>
+                <td>78</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>64</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Neha</td>
+                <td>91</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

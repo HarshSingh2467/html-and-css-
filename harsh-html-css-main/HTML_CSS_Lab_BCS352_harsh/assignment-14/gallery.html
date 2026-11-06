@@ -1,0 +1,56 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 14
+ * Assignment Name: CSS Grid Layouts
+ * Question: Task 2
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery - Harsh Narayan Singh</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .photo-box {
+            background-color: #10b981;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 120px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Club Photo Gallery</h1>
+    <div class="gallery-grid">
+        <div class="photo-box">Photo 1</div>
+        <div class="photo-box">Photo 2</div>
+        <div class="photo-box">Photo 3</div>
+        <div class="photo-box">Photo 4</div>
+        <div class="photo-box">Photo 5</div>
+        <div class="photo-box">Photo 6</div>
+    </div>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿$ cd ..
+$ git clone html-remote html-copy
+Cloning into 'html-copy'...
+      0 [main] sh (13056) C:\Program Files\Git\usr\bin\sh.exe: *** fatal error - NtCreateDirectoryObject(\BaseNamedObjects\msys-2.0S5-1888ae32e00d56aa): 0xC0000022
+fatal: Could not read from remote repository.
+System.Management.Automation.RemoteException
+Please make sure you have the correct access rights
+and the repository exists.
+$ cd html-copy
+$ git log --oneline
+fatal: not a git repository (or any of the parent directories): .git

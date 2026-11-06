@@ -1,0 +1,52 @@
+<!--
+/*
+ * Project: HTML and CSS Introduction Lab (BCS352)
+ * Assignment: 08
+ * Assignment Name: Sign-Up Forms and Choices
+ * Question: Task 2
+ * Student Name: Harsh Narayan Singh
+ * Roll Number: BCS2025367
+ * Course: B.Tech CSE - 3rd Semester
+ * Subject: HTML and CSS Introduction Lab (BCS352)
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course & Gender Choices - Harsh Narayan Singh</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        fieldset { border: 1px solid #cbd5e1; border-radius: 6px; padding: 16px; max-width: 400px; margin-bottom: 16px; }
+        legend { font-weight: bold; padding: 0 6px; }
+        .row { margin-bottom: 12px; }
+        select { padding: 6px 12px; border-radius: 4px; border: 1px solid #94a3b8; }
+    </style>
+</head>
+<body>
+    <h1>Student Choices Selection</h1>
+    <form>
+        <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            &nbsp;&nbsp;
+            <label><input type="radio" name="gender" value="male" checked> Male</label>
+        </fieldset>
+
+        <div class="row">
+            <label for="course"><strong>Select Course:</strong></label>
+            <select id="course" name="course">
+                <option value="BCA">BCA</option>
+                <option value="B.Tech" selected>B.Tech</option>
+            </select>
+        </div>
+    </form>
+
+    <footer style="margin-top: 40px; padding: 12px 16px; background-color: #f1f5f9; border-top: 2px solid #cbd5e1; font-family: sans-serif; font-size: 13px; color: #475569; border-radius: 6px;">
+        <strong>Student:</strong> Harsh Narayan Singh &nbsp;|&nbsp;
+        <strong>Roll Number:</strong> BCS2025367 &nbsp;|&nbsp;
+        <strong>Course:</strong> B.Tech CSE - 3rd Semester &nbsp;|&nbsp;
+        <strong>Subject:</strong> HTML and CSS Introduction Lab (BCS352)
+    </footer>
+</body>
+</html>

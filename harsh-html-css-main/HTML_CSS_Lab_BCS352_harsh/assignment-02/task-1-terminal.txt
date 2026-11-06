@@ -1,0 +1,6 @@
+﻿$ git init --bare ../html-remote
+Initialized empty Git repository in C:/Users/DELL/.gemini/antigravity/scratch/html-css-lab-bcs352/git-tasks/assignment-01/html-remote/
+$ git remote add origin ../html-remote
+$ git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)

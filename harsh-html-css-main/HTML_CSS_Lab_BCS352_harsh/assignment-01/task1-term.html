@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    background-color: #0b0f19;
+    margin: 20px;
+    font-family: 'Consolas', 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .window {
+    width: 800px;
+    background-color: #111827;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #374151;
+    overflow: hidden;
+  }
+  .titlebar {
+    background-color: #1f2937;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+  }
+  .dots {
+    display: flex;
+    gap: 8px;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .dot-red { background: #ef4444; }
+  .dot-yellow { background: #f59e0b; }
+  .dot-green { background: #10b981; }
+  .title {
+    color: #9ca3af;
+    font-size: 13px;
+    margin-left: 20px;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .content {
+    padding: 18px 22px;
+    color: #e5e7eb;
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+  .prompt { color: #10b981; font-weight: bold; }
+  .command { color: #f9fafb; font-weight: bold; }
+  .output { color: #93c5fd; }
+  .commit { color: #fde047; }
+</style>
+</head>
+<body>
+<div class="window">
+  <div class="titlebar">
+    <div class="dots">
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
+    </div>
+    <div class="title">Assignment 1 - Task 1: Initialize Git & Set User Identity — Student: Harsh Narayan Singh (BCS2025367)</div>
+  </div>
+  <div class="content"><span class="prompt">harsh@invertis-lab:~$</span> <span class="command">mkdir html-lab &amp;&amp; cd html-lab</span>
+<span class="prompt">harsh@invertis-lab:~/html-lab$</span> <span class="command">git init</span>
+<span class="output">Initialized empty Git repository in C:/Users/DELL/.gemini/antigravity/scratch/html-css-lab-bcs352/git-tasks/assignment-01/html-lab/.git/</span>
+
+<span class="prompt">harsh@invertis-lab:~/html-lab$</span> <span class="command">git config --local user.name "Harsh Narayan Singh"</span>
+<span class="prompt">harsh@invertis-lab:~/html-lab$</span> <span class="command">git config --local user.email "your-email@example.com"</span>
+
+<span class="prompt">harsh@invertis-lab:~/html-lab$</span> <span class="command">git config user.name</span>
+<span class="output">Harsh Narayan Singh</span>
+
+<span class="prompt">harsh@invertis-lab:~/html-lab$</span> <span class="command">git config user.email</span>
+<span class="output">your-email@example.com</span></div>
+</div>
+</body>
+</html>
